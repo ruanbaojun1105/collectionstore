@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">collection store</string>
+    <string name="action_settings">设置</string>
+	<string name="title">猜猜鸡蛋在哪 只鞋子里？</string>
+	<string name="friend">其实做这个只是无聊，同时也想做一个留言板，以后大家有什么心事啊，无聊啊之类的话都可以放到这上面，说给我们这些朋友听，这里没人会笑你，有的只会是懂你，理解你！不过这只是我的想法，现在还没学到安卓网络编程，现在啥也实现不了，后续会慢慢更新上来的。	QQ邮箱：1018795480@qq.com</string>
+</resources>

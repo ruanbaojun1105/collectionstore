@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc" >
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"/>
+      
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+   		android:background="#aec"
+        android:text="玩个小游戏先？" />
+
+	
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewA"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewA"
+            android:layout_weight="0.95"
+            android:background="#20aeee"
+            android:hint="说点啥呢？"
+            android:padding="10sp"
+            >
+           <!--  android:windowSoftInputMode="adjustUnspecified|stateHidden" 设置是否自动弹出输入-->
+             
+            
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_add" />
+    </LinearLayout>
+
+   
+    <ListView
+        android:id="@+id/listViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_above="@+id/buttonB"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:entries="@array/friend" >
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="friend">
+        <item >姓名：洪安华</item>
+        <item >性别：男</item>
+        <item >爱好：篮球</item>
+        <item >职业:学生</item>
+         <item >QQ：1016988620</item>
+        <item >电话：15727658315</item>
+       
+    </string-array>
+    
+</resources>

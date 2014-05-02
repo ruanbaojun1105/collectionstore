@@ -1,0 +1,45 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   android:weightSum="3" 
+   android:background="@drawable/wpa"
+   > 
+    
+   <!--  <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="330sp"
+        android:src="@drawable/wp1"
+        
+        android:layout_weight="1"/> -->
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="match_parent"
+        android:layout_height="330sp"
+        android:layout_weight="1" 
+        android:spacing="3sp"
+        android:unselectedAlpha="0.5"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0FFF0"
+        android:layout_weight="1"
+        android:text="欢迎进入collection store1.3，后续将有更多新功能更新上来哦！---by baojun" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="跳过"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:background="@drawable/green"/>
+
+    </LinearLayout>
+

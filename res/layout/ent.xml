@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".entArrge" 
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="@drawable/wpa"
+   >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="234dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.43"
+        android:text="@string/friend"
+        android:textColor="#C3693C" />
+
+       <TextView
+           android:layout_weight="1"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="老男人们，你是否同意遵守法律法规，在本软件中礼貌对待每个人" 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+    <CheckBox
+        android:layout_weight="1"
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否同意"
+
+        android:layout_gravity="center"/>
+   <LinearLayout 
+       android:orientation="horizontal"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:gravity="center"
+       android:layout_height="wrap_content"
+       ><Button android:id="@+id/button1"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="注册"
+        android:textSize="13sp"
+        android:background="@drawable/green"></Button>
+     <Button android:id="@+id/button2"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_marginLeft="80sp"
+        android:text="登录"
+        android:textSize="13sp"
+        android:background="@drawable/green"
+        />
+</LinearLayout> 
+</LinearLayout>
